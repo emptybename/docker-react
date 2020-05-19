@@ -1,7 +1,7 @@
 language: generic
 sudo: required
 services:
-  - doccker
+  - docker
 before_install:
   - docker build -t mayank/docker-react -f Dockerfile.dev .
 
